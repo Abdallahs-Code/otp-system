@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "2f4de9aa-4870-4361-a7de-34b582c40a90",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43868208",
+		"_collection_link": "https://abdallah-2585936.postman.co/workspace/abdallah's-Workspace~6157574b-8f3c-45da-8e86-5d51363670db/collection/43868208-2f4de9aa-4870-4361-a7de-34b582c40a90?action=share&source=collection_link&creator=43868208"
+	},
+	"item": [
+		{
+			"name": "hello world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/helloworld",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"helloworld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate otp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/otp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "use otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/otp/4873",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"otp",
+						"4873"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
